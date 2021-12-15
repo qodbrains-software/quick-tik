@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*main section*/
+
+.container {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 40px;
+}
+
+.parent-content {
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 97vw;
+}
+
+.child {
+    margin: 0.5em;
+    width: 20vw;
+    /* height: 30vh; */
+    /* flex-basis: 200px; */
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* flex-direction: column; */
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(114, 173, 192);
+    height: 6.5vh;
+    width: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1px;
+    justify-self: center;
+}
+
+img {
+    width: 20vw;
+    height: 24vh;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*To be fixed*/
+
+.ft {
+    color: rgb(114, 173, 192);
+    margin-left: 10vw;
+}
+
+
+/*To be fixed*/
+
+
+/* .feat {
+    display: flex;
+    justify-content: center;
+    position: relative;
+} */
+
+button {
+    margin: 10px;
+    width: 20vw;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    color: rgb(114, 173, 192);
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 1em;
+}
+
+.featured::after {
+    content: '';
+    position: absolute;
+    background-color: lightgray;
+    display: block;
+    width: 50vw;
+    height: 0.2vh;
+    bottom: -1vh;
+}
+
+.featured .h5-feat {
+    position: relative;
+}
+
+.featured .h5-feat::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(114, 173, 192);
+    display: none;
+    width: 100%;
+    height: 0.6vh;
+    bottom: -3vh;
+}
+
+.featured .h5-feat:hover::after,
+.featured .h5-feat:active::after,
+.featured .h5-feat:focus::after {
+    display: block;
+    width: 100%;
+    height: 0.9vh;
+    bottom: -1vh;
+}
+
+
+/*End of main section*/
+
+
+/*footer section*/
+
+.footer-content {
+    display: flex;
+    background-color: #060b26;
+    color: white;
+    height: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.fc {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
